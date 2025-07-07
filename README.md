@@ -5,6 +5,7 @@ This repository contains multiple Android applications I built during my B.Tech 
 ### 📱 Projects
 
 - **CalculatorApp** – Simple calculator using Android Studio.
+- **AlarmApp** – Alarm Manager app using Android Studio.
 
   
 Each app resides in its own folder and can be opened individually in Android Studio.
