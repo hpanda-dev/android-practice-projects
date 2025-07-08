@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="25dp"
+    android:weightSum="10"
+    tools:context=".MainActivity">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1.5"
+        android:background="#ECA6BE"
+        android:text="@string/number"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textColor="#12089C"
+        android:textAllCaps="false"
+        android:onClick="mCount"
+        />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="5"
+        android:text="@string/num"
+        android:textStyle="bold"
+        android:background="#ECD285"
+        android:textColor="#009688"
+        android:textSize="200sp"
+        android:gravity="center"
+         />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1.5"
+        android:background="#A6E8F1"
+        android:text="@string/numb"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textColor="#3C4347"
+        android:textAllCaps="false"
+        android:onClick="mDiscount"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="2"
+        android:background="#ECD5"
+        android:text="@string/reset"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textColor="#9A0F04"
+        android:textAllCaps="false"
+        android:onClick="mReset"
+        />
+
+</LinearLayout>
+
+
+
+
